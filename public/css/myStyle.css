@@ -1,0 +1,109 @@
+body {
+	background: rgb(58, 58, 58);
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: white;
+	height: 450px;
+	padding: 20px;
+    text-align: center;
+    
+    background-image: url('/images/Yosem.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    background-color: gray;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 20px;
+}
+header ul li:hover {
+    background-color: red;
+}
+header a {
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+header div{
+    margin-top: 125px;
+    padding: 20px;
+}
+section {
+	height: 250px;
+}
+section.about {
+    color: black;
+    background: white;
+    padding: 10px 0px 10px 40px;
+}
+.about h1 {
+    
+    margin: 0;
+}
+.about p {
+    color: black;
+}
+section.techinical-skill {
+
+}
+section.template {
+    background-color: white;
+}
+
+/* Float four columns side by side */
+.column {
+    
+    display: inline-block;
+    width: 25%;
+    padding: 0px 10px;
+    text-align: justify;
+}
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 0 -55px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: green;
+}
+.note {
+	background: rgb(95, 92, 92);
+	height: 70px;
+    text-align: center;
+    justify-content: center;
+}
