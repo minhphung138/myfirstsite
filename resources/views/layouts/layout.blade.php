@@ -12,46 +12,50 @@
     	<nav>
     		<ul>
     			<li><a href="/">home</a></li>
-    			<li><a href="/">projects</a></li>
+    			<li><a href="/">profolios</a></li>
         		<li><a href="/contact">contact</a></li>
         		<li><a href="/about">about</a></li>
     		</ul>
     	</nav>
-    	<div>
-    		<p>The big screen shot will be place here <br> I will tell you a litle bit more about myself</p>
+    	<div class="headline">
+    		<p>Hello, I'm Minh <br> Software Developer</p>
     	</div>
     </header>
     <section class="about"> 
-    	<h1>About me</h1>
-    	<p>hello</p>
-    </section>
+    	<div class="about-me">
+	    	<h1>About me</h1>
+	    	<p>Ersatz can be traced back in English to the 1870s, but it really came into prominence during World War I. Borrowed from German, where Ersatz is a noun meaning "substitute," the word was frequently applied as an adjective in English to modify terms like coffee (made from acorns) and flour (made from potatoes)—ersatz products resulting from the privations of war. By the time World War II came around, bringing with it a resurgence of the word along with more substitute products, ersatz was wholly entrenched in the language. Today, ersatz can be app  in English to modify terms like coffee (made from acorns) and flour (made from potatoes)—ersatz products resulting from the privations of war. By the time World War II came around, bringing with it a resurgence of the word along with more substitute products, ersatz was wholly entrenched in the language. Today, ersatz can be app
 
-    <section class="techinical-skill">
-    	<p>Java</p>
-    	
-    </section>
 
-    <section class="template">
 
-    	<div class="row">
-	    	<div class="column">
-	    		<div class="card">
-	    			<h2>Resume</h2>
-		    		<p>java</p>
-	    		</div>
-	    	</div>
-	    	<div class="column">
-	    		<div class="card">
-	    			<h2>Projects</h2>
-		    		<p>pay</p>
-	    		</div>
-	    	</div>
-	    	<div class="column">
-	    		<div class="card">
-		    		<h2>Want to Learn</h2>
-		    		<p>JavaScript</p>
-		    	</div>
-	    	</div>
+
+	    	lied to almost anything that seems like an artificial imitation.</p>
+    	</div>
+
+    	<div class="my-cards">
+			<div class="row">
+				<div class="column c1" onclick="location.href = '/about'">
+					<div class="card">
+						<h3>Resume</h3>
+						<p>Some text</p>
+						<p>Some text</p>
+					</div>
+				</div>
+				<div class="column c2" onclick="location.href = '/contact'">
+					<div class="card">
+						<h3>Profolio</h3>
+						<p>Some text</p>
+						<p>Some text</p>
+					</div>
+				</div>
+				<div class="column c3" onclick="location.href = '/contact'">
+					<div class="card">
+						<h3>Contact Me</h3>
+						<p>Som Some text Some text</p>
+						<p>Some text</p>
+					</div>
+				</div>
+			</div>
     	</div>
     </section>
 

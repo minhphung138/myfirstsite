@@ -1,20 +1,23 @@
 body {
 	background: rgb(58, 58, 58);
 	color: white;
-	margin: 0;
-	padding: 0;
+    background-color: rgb(245, 243, 243);
+	padding: auto;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header {
 	background: white;
-	height: 450px;
+	height: 575px;
 	padding: 20px;
     text-align: center;
-    
     background-image: url('/images/Yosem.jpg');
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    resize: both;
 }
 header a {
     color: white;
@@ -42,68 +45,100 @@ header a {
 header a:hover {
     text-decoration: underline;
 }
-header div{
+.headline {
     margin-top: 125px;
     padding: 20px;
 }
+
+
+/* another section */
+
 section {
-	height: 250px;
-}
-section.about {
+	height: auto;
+    margin: auto;
+    resize: both;
+    overflow: hidden;
+    padding: 50px 50px 0px 50px;
     color: black;
     background: white;
-    padding: 10px 0px 10px 40px;
+    
+}
+.about-me{
+    margin: auto;
+    width: 75%;
 }
 .about h1 {
-    
-    margin: 0;
+    margin: auto;
 }
 .about p {
     color: black;
-}
-section.techinical-skill {
-
-}
-section.template {
-    background-color: white;
+    overflow: auto;
 }
 
-/* Float four columns side by side */
+/*  carrd template3*/
+.my-cards {
+    width: 75%;
+    margin: auto;
+}
+
 .column {
-    
-    display: inline-block;
-    width: 25%;
-    padding: 0px 10px;
-    text-align: justify;
+  float: left;
+  width: 300px;
+  height: 200px;
+  padding: 0 10px;
+  text-align: center;
+  overflow: hidden;
 }
+
+
+
 /* Remove extra left and right margins, due to padding */
 .row {
-    margin: 0 -55px;
+    margin: 0 -5px;
+    display: flex;
+    justify-content: center;
 }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-@media screen and (max-width: 800px) {
+
+/* Responsive columns */
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
+
+/* Style the counter cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
-  border-radius: 5px;
   text-align: center;
-  background-color: green;
+  background-color: #f1f1f1;
+  border-radius: 5px;
 }
+.card:hover {
+    background-color: #c7bfbf;
+}
+
+
+
+
+footer {
+    margin: auto;
+    padding: auto;
+}
+
 .note {
+    display: flex;
 	background: rgb(95, 92, 92);
 	height: 70px;
     text-align: center;
     justify-content: center;
+
 }
